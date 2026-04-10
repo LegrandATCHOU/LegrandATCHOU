@@ -1,8 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=22D3EE&center=true&vCenter=true&width=700&height=70&lines=LEGRAND+ATCHOU)](https://git.io/typing-svg)
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=16&pause=1000&color=94A3B8&center=true&vCenter=true&width=700&lines=Cloud+%26+Cybersecurity+Engineering+Student+%40+EFREI+Paris;Network+%26+Security+Administrator+%E2%80%94+150%2B+clients;Azure+%7C+Terraform+%7C+Kubernetes+%7C+Linux+%7C+Active+Directory;Seeking+Alternance+%E2%80%94+September+2026)](https://git.io/typing-svg)
+![header](https://raw.githubusercontent.com/LegrandATCHOU/LegrandATCHOU/main/header.svg)
 
 <br/>
 
@@ -19,11 +17,11 @@
 
 Engineering student in Networks & Security at **EFREI Paris** (1st year — equiv. L3), heading into **Alternance M1 from September 2026** at a 2 days school / 3 days company rhythm.
 
-Since January 2023, I run **LegrandFix**, an independent IT services business where I manage 150+ clients: systems administration (Windows Server, Linux), network deployment & security (VPN, Firewall, Active Directory, DNS, DHCP), and technical support levels 1 & 2.
+Since January 2023, I run **LegrandFix** — an independent IT services business where I manage 150+ clients: systems administration (Windows Server, Linux), network deployment & security (VPN, Firewall, Active Directory, DNS, DHCP), and technical support levels 1 & 2.
 
 On the cloud side, I've designed and deployed a **secured Azure Hub-and-Spoke infrastructure** (Firewall, WAF, Bastion, Zero Trust) using Terraform, and a **multi-environment AKS platform** with CI/CD and Azure Key Vault integration.
 
-Long-term goal: **CISO**  at the intersection of Security, Governance and Innovation.
+Long-term goal: **CISO** — at the intersection of Security, Governance and Innovation.
 
 ---
 
@@ -127,8 +125,6 @@ Security      : RBAC · Key Vault · DevSecOps best practices
 
 <div align="center">
 
-**Available for Alternance — September 2026 · Paris, Île-de-France**
-
-*EFREI Paris — Networks & Security Engineering · 2025–2028*
+![footer](https://raw.githubusercontent.com/LegrandATCHOU/LegrandATCHOU/main/footer.svg)
 
 </div>
