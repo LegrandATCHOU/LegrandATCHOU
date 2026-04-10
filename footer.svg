@@ -1,0 +1,18 @@
+<svg width="900" height="80" viewBox="0 0 900 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="50%" style="stop-color:#1e1b4b"/>
+      <stop offset="100%" style="stop-color:#0f0c29"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#22d3ee;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0.06"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="80" fill="url(#bg)"/>
+  <path d="M0,0 C150,30 300,5 450,25 C600,45 750,10 900,30 L900,0 Z" fill="url(#wave)"/>
+  <line x1="0" y1="77" x2="900" y2="77" stroke="#22d3ee" stroke-width="2" opacity="0.6"/>
+  <text x="450" y="45" font-family="'Courier New', monospace" font-size="12" fill="#94a3b8" text-anchor="middle" opacity="0.8">Available for Alternance — September 2026  ·  Paris, Île-de-France  ·  EFREI Paris 2025–2028</text>
+</svg>

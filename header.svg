@@ -1,0 +1,61 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0c29"/>
+      <stop offset="50%" style="stop-color:#1e1b4b"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#22d3ee;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0.08"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#22d3ee;stop-opacity:0.05"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="200" fill="url(#bg)"/>
+
+  <!-- Wave shapes bottom -->
+  <path d="M0,140 C150,110 300,160 450,130 C600,100 750,150 900,120 L900,200 L0,200 Z" fill="url(#wave1)"/>
+  <path d="M0,160 C200,130 400,175 600,145 C750,120 850,160 900,140 L900,200 L0,200 Z" fill="url(#wave2)"/>
+
+  <!-- Decorative dots grid -->
+  <g opacity="0.15" fill="#22d3ee">
+    <circle cx="40" cy="30" r="1.5"/>
+    <circle cx="70" cy="50" r="1"/>
+    <circle cx="100" cy="25" r="1.5"/>
+    <circle cx="130" cy="55" r="1"/>
+    <circle cx="20" cy="60" r="1"/>
+    <circle cx="800" cy="30" r="1.5"/>
+    <circle cx="830" cy="55" r="1"/>
+    <circle cx="860" cy="25" r="1.5"/>
+    <circle cx="880" cy="50" r="1"/>
+    <circle cx="820" cy="65" r="1"/>
+  </g>
+
+  <!-- Accent line top -->
+  <line x1="0" y1="3" x2="900" y2="3" stroke="#22d3ee" stroke-width="2" opacity="0.6"/>
+
+  <!-- Name -->
+  <text x="450" y="95" font-family="'Segoe UI', Arial, sans-serif" font-size="42" font-weight="700" fill="white" text-anchor="middle" filter="url(#glow)">LEGRAND ATCHOU</text>
+
+  <!-- Subtitle -->
+  <text x="450" y="130" font-family="'Courier New', monospace" font-size="14" fill="#22d3ee" text-anchor="middle" opacity="0.9">Cloud &amp; Cybersecurity Engineering Student @ EFREI Paris</text>
+
+  <!-- Bottom line -->
+  <line x1="200" y1="148" x2="700" y2="148" stroke="#6366f1" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- Tags -->
+  <text x="450" y="168" font-family="'Courier New', monospace" font-size="11" fill="#94a3b8" text-anchor="middle" opacity="0.8">Azure  ·  Terraform  ·  Kubernetes  ·  Linux  ·  Network Security</text>
+
+</svg>
